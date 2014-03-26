@@ -98,7 +98,7 @@ module.exports = function (params, callback) {
   $(navOpts.id || '#navigation').append(buildHTML(navigation, true));
 
   //
-  var anchorTemplate = require('./lib/template.js');
+  var anchorTemplate = require('./lib/anchor.js');
 
   // If an anchor template is specified in the options, use that instead.
   if(anchorOpts && anchorOpts.template) {

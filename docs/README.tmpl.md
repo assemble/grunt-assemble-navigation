@@ -2,10 +2,13 @@
 
 > {%= description %}
 
-Assemble's v3.0 documentation uses this plugin, here's a preview:
+Assemble's v3.0 documentation uses this plugin!
+
+**Here's a preview**
 
 ![image](https://f.cloud.github.com/assets/383994/2523672/94f62414-b4d4-11e3-98c6-fc3c07bef4b4.png)
 
+***
 
 ## Quickstart
 {%= include("install") %}
