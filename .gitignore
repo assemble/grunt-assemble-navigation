@@ -37,6 +37,7 @@ validation-report.json
 tmp
 temp
 TODO.md
+docs
 vendor
 node_modules
 bower_components

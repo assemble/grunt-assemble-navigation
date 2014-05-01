@@ -1,7 +1,7 @@
 {
   "name": "assemble-contrib-navigation",
   "description": "Assemble plugin to automatically generate Bootstrap-style, multi-level side navigation. See the sidenav on assemble.io for a demonstration.",
-  "version": "0.0.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/assemble/assemble-contrib-navigation",
   "author": {
     "name": "Jon Schlinkert",
@@ -25,15 +25,12 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "cheerio": "~0.13.1",
-    "verbalize": "0.0.7",
-    "template": "~0.1.5"
+    "cheerio": "~0.15.0",
+    "template": "~0.1.7",
+    "verbalize": "~0.1.2"
   },
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-jshint": "~0.9.2",
-    "grunt-repos": "~0.1.2",
-    "grunt-verb": "~0.0.4"
+    "verb": "~0.2.5"
   },
   "keywords": [
     "assemble",
