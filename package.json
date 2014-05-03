@@ -1,8 +1,8 @@
 {
-  "name": "assemble-contrib-navigation",
-  "description": "Assemble plugin to automatically generate Bootstrap-style, multi-level side navigation. See the sidenav on assemble.io for a demonstration.",
-  "version": "0.2.0",
-  "homepage": "https://github.com/assemble/assemble-contrib-navigation",
+  "name": "assemble-middleweare-navigation",
+  "description": "Assemble navigation middleware. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.",
+  "version": "0.2.1",
+  "homepage": "https://github.com/assemble/assemble-middleweare-navigation",
   "author": {
     "name": "Jon Schlinkert",
     "url": "http://github.com/jonschlinkert/"
@@ -10,16 +10,16 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/assemble-contrib-navigation/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/assemble-middleweare-navigation/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/assemble/assemble-contrib-navigation.git"
+    "url": "git://github.com/assemble/assemble-middleweare-navigation.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-contrib-navigation/issues"
+    "url": "https://github.com/assemble/assemble-middleweare-navigation/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -34,11 +34,13 @@
   },
   "keywords": [
     "assemble",
+    "assemblemiddleware",
     "assembleplugin",
-    "blog",
-    "post",
+    "middleware",
     "nav",
-    "words",
-    "grunt"
+    "navigation",
+    "side",
+    "side-nav",
+    "sidenav"
   ]
 }

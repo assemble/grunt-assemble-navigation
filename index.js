@@ -1,5 +1,5 @@
 /**
-* https://github.com/assemble/assemble-contrib-navigation
+* https://github.com/assemble/assemble-middleweare-navigation
 * Thanks to @lukeapage for making this awesome!
 *
 * Copyright (c) 2014 Jon Schlinkert, Brian Woodward, contributors.

@@ -1,10 +1,10 @@
-# assemble-contrib-navigation [![NPM version](https://badge.fury.io/js/assemble-contrib-navigation.png)](http://badge.fury.io/js/assemble-contrib-navigation)
+# assemble-middleweare-navigation [![NPM version](https://badge.fury.io/js/assemble-middleweare-navigation.png)](http://badge.fury.io/js/assemble-middleweare-navigation)
 
-> Assemble plugin to automatically generate Bootstrap-style, multi-level side navigation. See the sidenav on assemble.io for a demonstration.
+> Assemble navigation middleware. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.
 
-**Heads up!** v0.1.0 and greater requires Assemble v0.5.0!
+**Upgrade notice!**: as of v0.1.0, _this middlweare requires Assemble v0.5.0._
 
-_Get the [Assemble generator](https://github.com/assemble/generator-assemble) for Yeoman to kickstart new Assemble projects using this plugin._
+_Get the [Assemble generator](https://github.com/assemble/generator-assemble) for Yeoman to kickstart new Assemble projects using this middleware._
 
 **Here's a preview**
 
@@ -16,20 +16,20 @@ _Get the [Assemble generator](https://github.com/assemble/generator-assemble) fo
 Install with [npm](npmjs.org):
 
 ```bash
-npm i assemble-contrib-navigation --save-dev
+npm i assemble-middleweare-navigation --save-dev
 ```
 
 
 ## Usage
-Register the plugin with Assemble:
+Register the middleware with Assemble:
 
 ```js
 options: {
-  plugins: ['assemble-contrib-navigation', 'foo/*.js']
+  middleware: ['assemble-middleweare-navigation', 'foo/*.js']
 }
 ```
 
-Visit the [plugins docs](http://assemble.io/plugins/) for more info or for help getting started.
+Visit the [middleware docs](http://assemble.io/plugins/) for more info or for help getting started.
 
 Add this markup where you want the navigation:
 
@@ -58,30 +58,23 @@ The plugin uses page headings to construct the nav items, results in something l
 
 ***
 
-## Assemble plugins
+## Other Assemble middleware
 Here are some related projects you might be interested in from the [Assemble](http://assemble.io) core team.
 
-+ [assemble-plugin-drafts](https://api.github.com/repos/assemble/assemble-plugin-drafts): Assemble plugin (v0.5.0) for preventing drafts from being rendered. 
-+ [assemble-plugin-pagination](https://api.github.com/repos/assemble/assemble-plugin-pagination): WIP this plugin isn't ready for use! 
-+ [assemble-plugin-rss](https://api.github.com/repos/assemble/assemble-plugin-rss): NOT Published yet! This plugin isn't ready for prime time! Plugin for creating RSS feeds with Assemble, the static site generator for Node.js, Grunt.js and Yeoman.  
-+ [generator-plugin](https://api.github.com/repos/assemble/generator-plugin): Yeoman generator for Assemble plugins.  
-+ [grunt-init-assemble-plugin](https://api.github.com/repos/assemble/grunt-init-assemble-plugin): Generate a plugin for Assemble. 
-+ [plugins](https://api.github.com/repos/assemble/plugins): Collection of contrib plugins maintained by the Assemble core team. 
-+ [assemble-contrib-lunr](https://api.github.com/repos/assemble/assemble-contrib-lunr): Assemble plugin for creating a search engine within your static site using lunr.js. 
-+ [assemble-contrib-lunr-examples](https://api.github.com/repos/assemble/assemble-contrib-lunr-examples): Usages examples for assemble-contrib-lunr, a search plugin for Assemble. 
-+ [assemble-contrib-markdown](https://api.github.com/repos/assemble/assemble-contrib-markdown): HEADS UP! This isn't ready for prime time! Convert markdown files to HTML using marked.js. This plugin is an alternative to Assemble's markdown Handlebars helpers. Both are useful in different scenarios. 
-+ [assemble-contrib-navigation](https://api.github.com/repos/assemble/assemble-contrib-navigation): Assemble plugin for automatically generating Bootstrap-style side navigation.  
-+ [assemble-contrib-permalinks](https://api.github.com/repos/assemble/assemble-contrib-permalinks): Permalinks plugin for Assemble, the static site generator for Grunt.js and Yeoman. This plugin enables powerful and configurable URI replacement patterns, presets, uses Moment.js for parsing dates, and much more. 
-+ [assemble-contrib-sitemap](https://api.github.com/repos/assemble/assemble-contrib-sitemap): Sitemap generator plugin for Assemble 
-+ [assemble-contrib-toc](https://api.github.com/repos/assemble/assemble-contrib-toc): Create a table of contents in the generated HTML, using Cheerio.js 
-+ [assemble-contrib-toc-example](https://api.github.com/repos/assemble/assemble-contrib-toc-example): Example for generating a Table of Contents using Assemble. 
-+ [assemble-contrib-wordcount](https://api.github.com/repos/assemble/assemble-contrib-wordcount): Assemble plugin for displaying a word-count on blog posts or pages. 
++ [assemble-middleware-anchors](https://api.github.com/repos/assemble/assemble-middleware-anchors): Assemble middleware for creating anchor tags from generated html. 
++ [assemble-middleware-contextual](https://api.github.com/repos/assemble/assemble-middleware-contextual): Assemble middleware for generating a JSON file containing the context of each page. Basic middleware to help see what's happening in the build. 
++ [assemble-middleware-decompress](https://api.github.com/repos/assemble/assemble-middleware-decompress): Assemble plugin for extracting zip, tar and tar.gz archives.  
++ [assemble-middleware-download](https://api.github.com/repos/assemble/assemble-middleware-download): Assemble middleware for downloading files from GitHub. 
++ [assemble-middleware-lunr](https://api.github.com/repos/assemble/assemble-middleware-lunr): Assemble middleware for creating a search engine within your static site using lunr.js. 
++ [assemble-middleware-permalinks](https://api.github.com/repos/assemble/assemble-middleware-permalinks): Permalinks middleware for Assemble, the static site generator for Grunt.js and Yeoman. This plugin enables powerful and configurable URI replacement patterns, presets, uses Moment.js for parsing dates, and much more. 
++ [assemble-middleware-toc](https://api.github.com/repos/assemble/assemble-middleware-toc): Assemble middleware for creating a table of contents in the generated HTML, using Cheerio.js 
++ [assemble-middleware-wordcount](https://api.github.com/repos/assemble/assemble-middleware-wordcount): Assemble middleware for displaying a word-count, and estimated reading time on blog posts or pages.  
 
-Visit [assemble.io/plugins](http:/assemble.io/plugins/) for more information about [Assemble](http:/assemble.io/) plugins.
+Visit [assemble.io/assemble-middleware](http:/assemble.io/assemble-middleware/) for more information about [Assemble](http:/assemble.io/) middleware.
 
 
 ## Contributing
-Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-contrib-navigation/issues).
+Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-middleweare-navigation/issues).
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality,
 and run `docs` in the command line to build the docs with [Verb](https://github.com/assemble/verb).
@@ -101,4 +94,4 @@ Released under the MIT license
 
 ***
 
-_This file was generated by [verb-cli](https://github.com/assemble/verb-cli) on May 01, 2014._
+_This file was generated by [verb-cli](https://github.com/assemble/verb-cli) on May 03, 2014._
