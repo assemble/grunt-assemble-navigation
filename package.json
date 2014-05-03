@@ -1,8 +1,8 @@
 {
-  "name": "assemble-middleweare-navigation",
+  "name": "assemble-middleware-navigation",
   "description": "Assemble navigation middleware. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.",
   "version": "0.2.1",
-  "homepage": "https://github.com/assemble/assemble-middleweare-navigation",
+  "homepage": "https://github.com/assemble/assemble-middleware-navigation",
   "author": {
     "name": "Jon Schlinkert",
     "url": "http://github.com/jonschlinkert/"
@@ -10,16 +10,16 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/assemble-middleweare-navigation/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/assemble-middleware-navigation/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/assemble/assemble-middleweare-navigation.git"
+    "url": "git://github.com/assemble/assemble-middleware-navigation.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-middleweare-navigation/issues"
+    "url": "https://github.com/assemble/assemble-middleware-navigation/issues"
   },
   "engines": {
     "node": ">=0.8"

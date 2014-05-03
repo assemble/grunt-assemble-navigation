@@ -1,4 +1,4 @@
-# assemble-middleweare-navigation [![NPM version](https://badge.fury.io/js/assemble-middleweare-navigation.png)](http://badge.fury.io/js/assemble-middleweare-navigation)
+# assemble-middleware-navigation [![NPM version](https://badge.fury.io/js/assemble-middleware-navigation.png)](http://badge.fury.io/js/assemble-middleware-navigation)
 
 > Assemble navigation middleware. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.
 
@@ -16,7 +16,7 @@ _Get the [Assemble generator](https://github.com/assemble/generator-assemble) fo
 Install with [npm](npmjs.org):
 
 ```bash
-npm i assemble-middleweare-navigation --save-dev
+npm i assemble-middleware-navigation --save-dev
 ```
 
 
@@ -25,7 +25,7 @@ Register the middleware with Assemble:
 
 ```js
 options: {
-  middleware: ['assemble-middleweare-navigation', 'foo/*.js']
+  middleware: ['assemble-middleware-navigation', 'foo/*.js']
 }
 ```
 
@@ -74,7 +74,7 @@ Visit [assemble.io/assemble-middleware](http:/assemble.io/assemble-middleware/) 
 
 
 ## Contributing
-Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-middleweare-navigation/issues).
+Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-middleware-navigation/issues).
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality,
 and run `docs` in the command line to build the docs with [Verb](https://github.com/assemble/verb).
