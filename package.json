@@ -1,25 +1,22 @@
 {
-  "name": "assemble-middleware-navigation",
-  "description": "Assemble navigation middleware. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.",
-  "version": "0.2.1",
-  "homepage": "https://github.com/assemble/assemble-middleware-navigation",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "http://github.com/jonschlinkert/"
-  },
+  "name": "grunt-assemble-navigation",
+  "description": "Assemble navigation plugin. Automatically generate Bootstrap-style, multi-level side nav. See the sidenav on assemble.io for a demonstration.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/grunt-assemble-navigation",
+  "author": "Jon Schlinkert (http://github.com/jonschlinkert)",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/assemble-middleware-navigation/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/grunt-assemble-navigation/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/assemble/assemble-middleware-navigation.git"
+    "url": "git://github.com/assemble/grunt-assemble-navigation.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-middleware-navigation/issues"
+    "url": "https://github.com/assemble/grunt-assemble-navigation/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -28,9 +25,6 @@
     "cheerio": "~0.15.0",
     "template": "~0.1.7",
     "verbalize": "~0.1.2"
-  },
-  "devDependencies": {
-    "verb": "~0.2.5"
   },
   "keywords": [
     "assemble",
