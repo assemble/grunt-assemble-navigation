@@ -1,9 +1,10 @@
-/**
-* https://github.com/assemble/assemble-contrib-navigation
-* Thanks to @lukeapage for making this awesome!
-*
-* Copyright (c) 2014 Jon Schlinkert, Brian Woodward, contributors.
-*/
+/*!
+ * grunt-assemble-navigation <https://github.com/assemble/grunt-assemble-navigation>
+ * Thanks to @lukeapage for making this awesome!
+ *
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
 
 var options = {
   stage: 'render:post:page'
